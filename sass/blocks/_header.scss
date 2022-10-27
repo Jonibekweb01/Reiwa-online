@@ -40,8 +40,9 @@
 .registration {
   padding: 10px 12px;
   border-radius: 40px;
-  border: 1px solid #d10700;
+  border: 2px solid #d10700;
   transition: 0.3s ease;
+  font-weight: 500;
 
   &>.nav__link {
     font-weight: 500;
@@ -52,7 +53,7 @@
 }
 
 .registration:hover {
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   padding: 10px 12px;
   background-color: #d10700;
 
@@ -91,7 +92,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  transform: translateY(-103%);
+  transform: translateX(-103%);
   transition: transform 0.2s;
   z-index: 99;
   background: rgba(0, 0, 0, 0.877);
@@ -106,7 +107,7 @@
 }
 
 .showMenu {
-  transform: translateY(0);
+  transform: translateX(0);
 }
 
 .menuItem {
