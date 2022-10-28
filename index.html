@@ -60,12 +60,14 @@
         <div class="holder__inner">
           <div class="holder__info">
             <h1 class="holder__title">Do you like Japanese educational center?</h1>
-            <p class="holder__text">Hueman Studio is an award-winning studio that combines strategy, positioning, and
-              people-centered design
-              <span class="holder__del"> to
-                create powerful brands, websites, and visuals that engage your audience and help you grow.
-              </span>
-            </p>
+            <div class="holder__textInfo">
+              <p class="holder__text">Hueman Studio is an award-winning studio that combines strategy, positioning, and
+                people-centered design
+                <span class="holder__del"> to
+                  create powerful brands, websites, and visuals that engage your audience and help you grow.
+                </span>
+              </p>
+            </div>
             <a class="holder__regist registration" href="#">Registration</a>
           </div>
           <div class="video">
@@ -92,15 +94,70 @@
       <div class="container">
         <div class="wrapper__inner">
           <div class="wrapper__info">
-            <h2Ю class="wrapper__title">We’re the digital marketing team at Wednesday.</h2>
-
+            <h2 class="wrapper__title">We’re the digital marketing team at Wednesday.</h2>
           </div>
+          <ul class="wrapper__list wrapper-carousel">
+            <li class="wrapper__item weather">
+              <picture class="wrapper__picture">
+                <source type="image/webp"
+                  srcset="./images/holder-IMG/weather-1-1x.webp 1x, ./images/holder-IMG/weather-1@2x.webp 2x" />
+                <source media="(max-width:768px)" width="284" height="280" />
+                <img src="./images/holder-IMG/weather-1-1x.png"
+                  srcset="./images/holder-IMG/weather-1-1x.png 1x, ./images/holder-IMG/weather-1@2x.png 2x" alt="Img"
+                  width="" height="">
+              </picture>
+              <h3 class="weather__title">In Winter</h3>
+              <p class="weather__text">Subscribe and get your personal Trello board for the tasks.</p>
+              <a class="weather__link" href="#">View more</a>
+            </li>
+            <li class="wrapper__item weather">
+              <picture class="wrapper__picture">
+                <source type="image/webp"
+                  srcset="./images/holder-IMG/weather-2.webp 1x, ./images/holder-IMG/weather-2@2x.webp 2x" />
+                <source media="(max-width:768px)" width="284" height="280" />
+                <img src="./images/holder-IMG/weather-2.png"
+                  srcset="./images/holder-IMG/weather-2.png 1x, ./images/holder-IMG/weather-2@2x.png 2x" alt="Img"
+                  width="" height="">
+              </picture>
+              <h3 class="weather__title">In Spring</h3>
+              <p class="weather__text">Subscribe and get your personal Trello board for the tasks.</p>
+              <a class="weather__link" href="#">View more</a>
+            </li>
+            <li class="wrapper__item weather">
+              <picture class="wrapper__picture">
+                <source type="image/webp"
+                  srcset="./images/holder-IMG/weather-3.webp 1x, ./images/holder-IMG/weather-3@2x.webp 2x" />
+                <source media="(max-width:768px)" width="284" height="280" />
+                <img src="./images/holder-IMG/weather-3.png"
+                  srcset="./images/holder-IMG/weather-3.png 1x, ./images/holder-IMG/weather-3@2x.png 2x" alt="Img"
+                  width="" height="">
+              </picture>
+              <h3 class="weather__title">In Summer</h3>
+              <p class="weather__text">Subscribe and get your personal Trello board for the tasks.</p>
+              <a class="weather__link" href="#">View more</a>
+            </li>
+            <li class="wrapper__item weather">
+              <picture class="wrapper__picture">
+                <source type="image/webp"
+                  srcset="./images/holder-IMG/weather-4.webp 1x, ./images/holder-IMG/weather-4@2x.webp 2x" />
+                <source media="(max-width:768px)" width="284" height="280" />
+                <img src="./images/holder-IMG/weather-4.png"
+                  srcset="./images/holder-IMG/weather-4.png 1x, ./images/holder-IMG/weather-4@2x.png 2x" alt="Img"
+                  width="" height="">
+              </picture>
+              <h3 class="weather__title">In Autumn</h3>
+              <p class="weather__text">Subscribe and get your personal Trello board for the tasks.</p>
+              <a class="weather__link" href="#">View more</a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
   </main>
 
-  <script src=".//slick-1.8.1/slick/slick.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src=".//slick-1.8.1/slick/slick.js"></script>
   <script src="./js/slick.js"></script>
   <script src="./js/reiwa.js"></script>
   <script src="./js/hamburger.js"></script>

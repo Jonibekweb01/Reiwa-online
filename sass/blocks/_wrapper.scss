@@ -1,3 +1,7 @@
+.wrapper {
+    margin-bottom: 100px;
+}
+
 .wrapper__info {
     max-width: 846px;
     width: 100%;
@@ -13,9 +17,60 @@
     color: #222222;
 }
 
-.carousel {
+.wrapper__list {
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 30px !important;
+}
+
+.wrapper__item {
+    max-width: 394px;
+    width: 100%;
+    margin-right: 30px !important;
+}
+
+.weather__title {
+    margin: 15px 0 5px 0;
+    font-family: 'Poppins';
+    color: #000000;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #000000;
+}
+
+.weather__text {
+    margin: 0 0 20px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.weather__link {
+    display: block;
+    padding: 21px 0;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    border: 1.5px solid #000000;
+    border-radius: 42px;
+    transition: 0.2s ease;
+
+    &:hover {
+        color: #fff;
+        background-color: #000;
+        border: 1px solid transparent;
+    }
 }
 
 @media only screen and (max-width:565px) {
@@ -23,5 +78,10 @@
         margin: 0 0 20px 0;
         font-size: 30px;
         line-height: 34px;
+    }
+
+    .wrapper__item {
+        max-width: 284px !important;
+        width: 100% !important;
     }
 }
