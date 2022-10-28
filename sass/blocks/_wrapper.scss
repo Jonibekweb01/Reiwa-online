@@ -80,8 +80,14 @@
         line-height: 34px;
     }
 
+    .wrapper__list {
+        display: flex;
+        margin: 0 auto !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
     .wrapper__item {
-        max-width: 284px !important;
-        width: 100% !important;
+        margin: 0 auto !important;
     }
 }
