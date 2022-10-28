@@ -29,7 +29,7 @@
 .wrapper__item {
     max-width: 394px;
     width: 100%;
-    margin-right: 30px !important;
+    margin-right: 30px;
 }
 
 .weather__title {
@@ -88,6 +88,23 @@
     }
 
     .wrapper__item {
-        margin: 0 auto !important;
+        width: 100%;
+        margin: 0;
+    }
+
+    .weather__title {
+        font-size: 42px;
+        line-height: 63px;
+    }
+
+    .weather__text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .weather__link {
+        font-size: 24px;
+        line-height: 29px;
+        width: 100%;
     }
 }
