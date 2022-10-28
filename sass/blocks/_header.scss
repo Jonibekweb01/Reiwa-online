@@ -1,5 +1,9 @@
 .header {
   padding: 28px 0;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 222;
 }
 
 .header__inner {
