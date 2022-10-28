@@ -9,6 +9,7 @@
     /* Chrome 26+, Opera 23+, Firefox 39+ */
     url("../fonts/montserrat-v25-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  unicode-range: U+0025-00FF;
 }
 
 /* montserrat-500 - latin */
@@ -21,6 +22,7 @@
     /* Chrome 26+, Opera 23+, Firefox 39+ */
     url("../fonts/montserrat-v25-latin-500.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  unicode-range: U+0025-00FF;
 }
 
 /* montserrat-600 - latin */
@@ -33,16 +35,18 @@
     /* Chrome 26+, Opera 23+, Firefox 39+ */
     url("../fonts/montserrat-v25-latin-600.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  unicode-range: U+0025-00FF;
 }
 
 /* montserrat-700 - latin */
 @font-face {
-  font-display: swap;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: local(""), url("../fonts/montserrat-v25-latin-700.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
     url("../fonts/montserrat-v25-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  unicode-range: U+0025-00FF;
 }
