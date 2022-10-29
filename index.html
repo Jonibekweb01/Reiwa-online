@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
   <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="preload" as="font">
   <link rel="stylesheet" href="./css/main.css">
   <title>Reiwa</title>
@@ -54,7 +55,7 @@
   </header>
 
   <main>
-    <section class="holder">
+    <section class="holder" data-aos="fade-up">
       <div class="container">
         <div class="holder__inner">
           <div class="holder__info">
@@ -95,7 +96,7 @@
           <div class="wrapper__info">
             <h2 class="wrapper__title">We’re the digital marketing team at Wednesday.</h2>
           </div>
-          <ul class="wrapper__list wrapper-carousel">
+          <ul class="wrapper__list wrapper-carousel" data-aos="fade-left">
             <li class="wrapper__item weather">
               <picture class="wrapper__picture">
                 <source type="image/webp"
@@ -152,7 +153,13 @@
     </section>
   </main>
 
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 3000,
+      once: true,
+    });
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src=".//slick-1.8.1/slick/slick.js"></script>
   <script src="./js/slick.js"></script>
