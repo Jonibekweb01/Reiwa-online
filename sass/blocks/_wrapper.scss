@@ -8,6 +8,14 @@
     margin: 0 auto;
 }
 
+.wrapper__picture {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
 .wrapper__title {
     margin: 0 0 40px 0;
     font-weight: 700;
