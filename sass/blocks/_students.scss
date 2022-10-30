@@ -1,0 +1,94 @@
+.students {
+    margin-bottom: 100px;
+}
+
+.students__title {
+    margin: 0 0 40px 0;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+    text-align: center;
+    color: #222222;
+}
+
+.students__item {
+    max-width: 295px;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(image.png);
+    border-radius: 24px;
+    background-image: url('../images/info-IMG/student-1.png');
+}
+
+.second {
+    background-repeat: no-repeat;
+    background-image: url("../images/info-IMG/student-2.png");
+}
+
+.third {
+    background-repeat: no-repeat;
+    background-image: url("../images/info-IMG/student-3.png");
+}
+
+.fourth {
+    background-repeat: no-repeat;
+    background-image: url("../images/info-IMG/student-4.png");
+}
+
+.fivth {
+    background-repeat: no-repeat;
+    background-image: url("../images/info-IMG/student-5.png");
+}
+
+.six {
+    background-repeat: no-repeat;
+    background-image: url("../images/info-IMG/student-6.png");
+}
+
+.students__img {
+    margin-bottom: 275px;
+}
+
+.students__titles {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0 0 13px 0;
+}
+
+.students__border {
+    display: block;
+    margin-bottom: 5px;
+    width: 40px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.students__texts {
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:565px) {
+    .students {
+        margin-bottom: 50px;
+    }
+
+    .students__title {
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .students__item {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: left;
+        margin: 0 auto;
+        width: 100% !important;
+    }
+}

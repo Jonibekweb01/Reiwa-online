@@ -20,4 +20,29 @@ function myFunction(x) {
 }
 
 var x = window.matchMedia("(max-width: 568px)")
-myFunction(x) // Call listener function at run time
+myFunction(x)
+
+
+function secondFunc(y) {
+    if (x.matches) { // If media query matches
+        $('.students__carousel').slick({
+            lazyLoad: 'ondemand',
+            autoplaySpeed: 1000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+        });
+    } else {
+        $('.students__carousel').slick({
+            lazyLoad: 'ondemand',
+            autoplaySpeed: 2000,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+        });
+    }
+}
+
+
+var y = window.matchMedia("(max-width: 568px)")
+secondFunc(y)
