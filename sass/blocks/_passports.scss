@@ -11,13 +11,53 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 0 0 70px 0;
     padding: 0;
     list-style-type: none;
 }
 
+.passports__item {
+    max-width: 393px;
+    width: 100%;
+}
+
+.passports__pictureImg {
+    max-width: 393px;
+    width: 100%;
+}
+
+.passports__newPage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+}
+
+.passports__link {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D10700;
+}
+
 @media only screen and (max-width:565px) {
     .passports__title {
+        font-size: 30px;
+        line-height: 37px;
         margin-bottom: 20px;
+    }
+
+    .passports__list {
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .passports__newPage {
+        margin-bottom: 40px;
+    }
+
+    .passports__link {
+        font-size: 18px;
+        line-height: 22px;
     }
 }
