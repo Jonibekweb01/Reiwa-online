@@ -85,7 +85,7 @@ function thirdFunc(f) {
             slidesToShow: 5,
             arrows: false,
             cssEase: 'linear',
-            speed: 2000,
+            speed: 1000,
             initialSlide: 1,
             draggable: false,
             rtl: true,
@@ -131,7 +131,7 @@ function fouthFunc(d) {
             slidesToShow: 4.2,
             arrows: false,
             cssEase: 'linear',
-            speed: 2000,
+            speed: 1000,
             initialSlide: 1,
             draggable: false,
             rtl: false
