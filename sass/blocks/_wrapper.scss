@@ -40,6 +40,26 @@
     margin-right: 30px;
 }
 
+// .ratio {
+//     position: relative;
+//     display: block;
+
+//     &::before {
+//         display: block;
+//         width: 100%;
+//         background-color: red;
+//         content: '';
+//     }
+// }
+
+// .wrapper__imgs {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     width: 100%;
+// }
+
 .weather__title {
     margin: 15px 0 5px 0;
     font-family: 'Poppins';
