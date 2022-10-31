@@ -1,0 +1,16 @@
+.chart {
+    margin-bottom: 30px;
+}
+
+.chart__inner>iframe {
+    max-width: 1380px;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url(image.png);
+    border-radius: 30px;
+}
+
+@media only screen and (max-width:565px) {
+    .chart {
+        margin-bottom: 50px;
+    }
+}
