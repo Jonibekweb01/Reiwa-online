@@ -55,7 +55,7 @@ function thirdFunc(f) {
     if (f.matches) { // If media query matches
         $('.partners__list').slick({
             slidesToShow: 4,
-            slidesToScroll: 1,
+            slidesToScroll: 90,
             autoplay: true,
             autoplaySpeed: 0,
             arrows: false,
@@ -74,7 +74,7 @@ function thirdFunc(f) {
     } else {
         $('.partners__list').slick({
             slidesToShow: 4,
-            slidesToScroll: 1,
+            slidesToScroll: 90,
             autoplay: true,
             autoplaySpeed: 0,
             arrows: false,
@@ -101,7 +101,7 @@ function fouthFunc(d) {
     if (d.matches) { // If media query matches
         $('.partners__listS').slick({
             slidesToShow: 4,
-            slidesToScroll: 2,
+            slidesToScroll: 90,
             autoplay: true,
             autoplaySpeed: 0,
             arrows: false,
@@ -120,7 +120,7 @@ function fouthFunc(d) {
     } else {
         $('.partners__listS').slick({
             slidesToShow: 4,
-            slidesToScroll: 1,
+            slidesToScroll: 90,
             autoplay: true,
             autoplaySpeed: 0,
             arrows: false,
