@@ -46,3 +46,98 @@ function secondFunc(y) {
 
 var y = window.matchMedia("(max-width: 568px)")
 secondFunc(y)
+
+
+
+
+
+function thirdFunc(f) {
+    if (f.matches) { // If media query matches
+        $('.partners__list').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 0,
+            arrows: false,
+            autoplay: true,
+            infinite: true,
+            autoplaySpeed: 0,
+            slidesToScroll: 1,
+            slidesToShow: 1.8,
+            arrows: false,
+            cssEase: 'linear',
+            speed: 1000,
+            initialSlide: 1,
+            draggable: false,
+            rtl: true,
+        });
+    } else {
+        $('.partners__list').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 0,
+            arrows: false,
+            autoplay: true,
+            infinite: true,
+            autoplaySpeed: 0,
+            slidesToScroll: 1,
+            slidesToShow: 5,
+            arrows: false,
+            cssEase: 'linear',
+            speed: 2000,
+            initialSlide: 1,
+            draggable: false,
+            rtl: true,
+        });
+    }
+}
+
+
+var f = window.matchMedia("(max-width: 568px)")
+thirdFunc(f)
+
+function fouthFunc(d) {
+    if (d.matches) { // If media query matches
+        $('.partners__listS').slick({
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            autoplaySpeed: 0,
+            arrows: false,
+            autoplay: true,
+            infinite: true,
+            autoplaySpeed: 0,
+            slidesToScroll: 1,
+            slidesToShow: 1.8,
+            arrows: false,
+            cssEase: 'linear',
+            speed: 1000,
+            initialSlide: 1,
+            draggable: false,
+            rtl: false
+        });
+    } else {
+        $('.partners__listS').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 0,
+            arrows: false,
+            autoplay: true,
+            infinite: true,
+            autoplaySpeed: 0,
+            slidesToScroll: 1,
+            slidesToShow: 4.2,
+            arrows: false,
+            cssEase: 'linear',
+            speed: 2000,
+            initialSlide: 1,
+            draggable: false,
+            rtl: false
+        });
+    }
+}
+
+var d = window.matchMedia("(max-width: 568px)")
+fouthFunc(d)

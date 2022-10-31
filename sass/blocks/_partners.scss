@@ -1,0 +1,33 @@
+.partners__title {
+    margin: 0 0 46px 0;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+    text-align: center;
+    color: #222222;
+}
+
+.partners__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.partners__listS {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:565px) {
+    .partners__title {
+        margin-bottom: 20px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+}
