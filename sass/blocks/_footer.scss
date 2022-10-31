@@ -1,0 +1,151 @@
+.footer {
+    background-color: #fff;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 120px;
+    padding: 75px 0px;
+}
+
+
+.box {
+    max-width: 204px;
+    width: 100%;
+}
+
+.box__img {
+    margin-bottom: 15px;
+}
+
+.box__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #777777;
+    margin: 0;
+}
+
+.first {
+    max-width: 111px;
+    width: 100%;
+}
+
+.first__title {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.first__text {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+.footer__list {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 150px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.seconds {
+    max-width: 120px !important;
+    width: 100%;
+}
+
+.telegram {
+    display: flex;
+    align-items: center;
+
+    &::before {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../images/footer/telegram.svg');
+        background-repeat: no-repeat;
+        content: '';
+    }
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    &::before {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../images/footer/instagram.svg');
+        background-repeat: no-repeat;
+        content: '';
+    }
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    &::before {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../images/footer/facebook.svg');
+        background-repeat: no-repeat;
+        content: '';
+    }
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    &::before {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../images/footer/twitter.svg');
+        background-repeat: no-repeat;
+        content: '';
+    }
+}
+
+
+@media only screen and (max-width:565px) {
+    .footer__inner {
+        padding: 0;
+    }
+
+    .box {
+        margin-bottom: 40px;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer__list {
+        // flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
