@@ -7,6 +7,7 @@
 
 .header__inner {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -75,10 +76,7 @@
 }
 
 .hamburger {
-  position: fixed;
   z-index: 100;
-  top: 30px;
-  right: 1rem;
   padding: 4px;
   border: transparent solid 1px;
   background: white;
