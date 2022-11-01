@@ -1,5 +1,5 @@
 .passports__result {
-    padding: 60px 0 0 0;
+    padding: 60px 0 0 0 !important;
 }
 
 .passports__title {
@@ -45,9 +45,10 @@
 }
 
 @media only screen and (max-width:565px) {
-    .passports__result {
-        padding: 100px 0 0 0;
+    .passports {
+        padding: 60px 0 0 0;
     }
+
 
     .passports__title {
         font-size: 30px;
