@@ -24,7 +24,7 @@ function secondFunc(y) {
     if (y.matches) { // If media query matches
         $('.students__carousel').slick({
             lazyLoad: 'ondemand',
-            autoplaySpeed: 1000,
+            autoplaySpeed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
