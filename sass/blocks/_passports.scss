@@ -1,3 +1,7 @@
+.passports__result {
+    padding: 200px 0 0 0;
+}
+
 .passports__title {
     margin: 0 0 40px 0;
     font-weight: 700;
@@ -41,6 +45,10 @@
 }
 
 @media only screen and (max-width:565px) {
+    .passports__result {
+        padding: 100px 0 0 0;
+    }
+
     .passports__title {
         font-size: 30px;
         line-height: 37px;
