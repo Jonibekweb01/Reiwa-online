@@ -1,6 +1,3 @@
-
-
-
 function myFunction(x) {
     if (x.matches) { // If media query matches
         $('.wrapper-carousel').slick({
@@ -15,16 +12,16 @@ function myFunction(x) {
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
-        });
+        })
     }
 }
 
 var x = window.matchMedia("(max-width: 568px)")
-myFunction(x)
+myFunction(x);
 
 
 function secondFunc(y) {
-    if (x.matches) { // If media query matches
+    if (y.matches) { // If media query matches
         $('.students__carousel').slick({
             lazyLoad: 'ondemand',
             autoplaySpeed: 1000,

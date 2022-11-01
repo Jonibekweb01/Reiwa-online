@@ -29,12 +29,12 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a class="nav__link" href="#">
+                            <a class="nav__link" href="./document.html">
                                 Document
                             </a>
                         </li>
                         <li class="nav__item registration">
-                            <a class="nav__link registration__link" href="#">
+                            <a class="nav__link registration__link" href="./index.html">
                                 Registration
                             </a>
                         </li>
@@ -42,8 +42,9 @@
                 </nav>
                 <div class="hamburgers">
                     <ul class="menu">
+                        <li><a class="menuItem" href="./index.html">Main</a></li>
                         <li><a class="menuItem" href="./result.html">Results</a></li>
-                        <li><a class="menuItem" href="#">Registration</a></li>
+                        <li><a class="menuItem" href="#forma">Registration</a></li>
                     </ul>
                     <button class="hamburger">
                         <i class="menuIcon material-icons">menu</i>
@@ -55,12 +56,12 @@
     </header>
 
     <main>
-        <section class="passports passports__result" data-aos="fade-down" data-aos-offset="300"
-            data-aos-easing="ease-in-sine">
+        <section class="passports passports__result">
             <div class="container">
                 <div class="passports__inner">
                     <h2 class="passports__title">Reiwa Information <br> about lessons</h2>
-                    <ul class="passports__list">
+                    <ul class="passports__list" data-aos="fade-down" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <li class="passports__item">
                             <picture class="passports__picture">
                                 <source type="image/webp"
@@ -331,10 +332,9 @@
         </section>
     </main>
 
-    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script defer src=".//slick-1.8.1/slick/slick.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script defer src="./js/slick.js"></script>
+    <!-- <script defer src="./js/slick.js"></script> -->
     <script defer src="./js/reiwa.js"></script>
     <script defer src="./js/hamburger.js"></script>
     <script defer src="./js/main.js"></script>
